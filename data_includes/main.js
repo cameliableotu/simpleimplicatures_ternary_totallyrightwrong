@@ -74,7 +74,7 @@ PennController("details" ,
 	       ,
   newText ("<p> The baby dragon has to describe what he thinks is behind the shadow. </p>")
 	       ,
-   newText ("<p> If his description is totally right, you have to reward the baby dragon with a huge apple. </p>"),
+   newText ("<p> If the baby dragon's description is totally right, you have to reward the him with a huge apple. </p>"),
    newText ("<p> If his description is totally wrong, you'll give him a small apple. </p>"),
   newText ("<p> If his description is sort of in between-not totally right, but not totally wrong, you'll give him a big apple. </p>"),
    newImage("hugeapple", "hugeapple.png")
@@ -328,7 +328,7 @@ PennController ("experiment",
 		
   newText ("<p> The baby dragon has to describe what he thinks is behind the shadow. </p>")
 	       ,
-  newText ("<p> If his description is totally right, you have to reward the baby dragon with a huge apple. </p>"),
+  newText ("<p> If the baby dragon's description is totally right, you have to reward him with a huge apple. </p>"),
    newText ("<p> If his description is totally wrong, you'll give him a small apple. </p>"),
   newText ("<p> If his description is sort of in between-not totally right, but not totally wrong, you'll give him a big apple. </p>"),
    newImage("hugeapple", "hugeapple.png")
@@ -990,7 +990,7 @@ PennController ("experiment",
 		
   newText ("<p> The baby dragon has to describe what he thinks is behind the shadow. </p>")
 	       ,
-  newText ("<p> If his description is totally right, you have to reward the baby dragon with a huge apple. </p>"),
+  newText ("<p> If the baby dragon's description is totally right, you have to reward him with a huge apple. </p>"),
    newText ("<p> If his description is totally wrong, you'll give him a small apple. </p>"),
   newText ("<p> If his description is sort of in between-not totally right, but not totally wrong, you'll give him a big apple. </p>"),
    newImage("hugeapple", "hugeapple.png")
@@ -1645,7 +1645,7 @@ PennController ("experiment",
 		
   newText ("<p> The baby dragon has to describe what he thinks is behind the shadow. </p>")
 	       ,
- newText ("<p> If his description is totally right, you have to reward the baby dragon with a huge apple. </p>"),
+ newText ("<p> If the baby dragon's description is totally right, you have to reward him with a huge apple. </p>"),
    newText ("<p> If his description is totally wrong, you'll give him a small apple. </p>"),
   newText ("<p> If his description is sort of in between-not totally right, but not totally wrong, you'll give him a big apple. </p>"),
    newImage("hugeapple", "hugeapple.png")
@@ -2298,7 +2298,7 @@ PennController ("experiment",
 		
   newText ("<p> The baby dragon has to describe what he thinks is behind the shadow. </p>")
 	       ,
-   newText ("<p> If his description is totally right, you have to reward the baby dragon with a huge apple. </p>"),
+   newText ("<p> If the baby dragon's description is totally right, you have to reward him with a huge apple. </p>"),
    newText ("<p> If his description is totally wrong, you'll give him a small apple. </p>"),
   newText ("<p> If his description is sort of in between-not totally right, but not totally wrong, you'll give him a big apple. </p>"),
    newImage("hugeapple", "hugeapple.png")
