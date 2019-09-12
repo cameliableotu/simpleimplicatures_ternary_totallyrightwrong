@@ -48,6 +48,9 @@ PennController("welcome" ,
 	     newImage ("wizardanddragon.png")
                .print ()
 	       ,
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       newKey(" ")
         .wait());
 PennController("details" ,
@@ -64,6 +67,9 @@ newText ("<p> Now Merlin is playing the shadow game with a really cute baby drag
  newText ("<p> For instance, in the image below, there are three cats, and none of them is in front of the curtain. They all went behind the curtain, but the shadow belongs to only one of them. </p>"),
 	  newImage ("catshadowallcats", "catshadowallcats.png")
 	.print (),
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	 newKey(" ")
         .wait())
 
@@ -95,6 +101,9 @@ PennController("details" ,
 	  .settings.add(500, 0 , getImage("smallapple") )
         .print()
 	       ,
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       newKey(" ")
         .wait()
 )
@@ -110,6 +119,9 @@ PennController("trial" ,
 	       ,
 	       newAudio("bunnysounds", "bunnysounds.mp3")
 		.play()
+	       ,
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
 	       ,
 	       newKey(" ")
         .wait()
@@ -264,6 +276,9 @@ PennController("introductionanimals" ,
 	       newAudio("barking", "barking.mp3")
 		.play()
 	       ,
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       newKey(" ")
         .wait()
 	      )
@@ -348,6 +363,9 @@ PennController ("experiment",
         .settings.add( 250 , 0 , getImage("bigapple") )
 	  .settings.add(500, 0 , getImage("smallapple") )
         .print()
+	       ,
+		newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
 	       ,
 	       newKey(" ")
         .wait()
@@ -523,6 +541,9 @@ PennController("experiment" ,
 	     newImage ("threedogs.png")
                .print ()
 	       ,
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       newKey(" ")
         .wait()
 	       
@@ -540,6 +561,9 @@ PennController("experiment" ,
 	       ,
 	       	newAudio("barking", "barking.mp3")
 		.play()
+	       ,
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
 	       ,
 	       newKey(" ")
         .wait()
@@ -788,6 +812,9 @@ PennController("experiment" ,
 	       	newAudio("barking", "barking.mp3")
 		.play()
 	       ,
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       newKey(" ")
         .wait()
 	       
@@ -961,6 +988,9 @@ PennController("experiment" ,
 	       	newAudio("barking", "barking.mp3")
 		.play()
 	       ,
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       newKey(" ")
         .wait()
 	       
@@ -978,6 +1008,9 @@ PennController("experiment" ,
 	       newAudio("frogsounds2sec", "frogsounds2sec.mp3")
 		.play()
 		,
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       newKey(" ")
         .wait()
 	       
@@ -1010,6 +1043,9 @@ PennController ("experiment",
         .settings.add( 250 , 0 , getImage("bigapple") )
 	  .settings.add(500, 0 , getImage("smallapple") )
         .print()
+	       ,
+		newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
 	       ,
 	       newKey(" ")
         .wait()
@@ -1179,6 +1215,9 @@ PennController("experiment" ,
 	     newImage ("threefrogs.png")
                .print ()
 	       ,
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       newKey(" ")
         .wait()
 	       
@@ -1196,6 +1235,9 @@ PennController("experiment" ,
 	       ,
 	       newAudio("frogsounds2sec", "frogsounds2sec.mp3")
 		.play(),
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       
 	       newKey(" ")
         .wait()
@@ -1444,6 +1486,9 @@ PennController("experiment" ,
 	       newAudio("frogsounds2sec", "frogsounds2sec.mp3")
 		.play()
 	       ,
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       newKey(" ")
         .wait()
 	       
@@ -1615,7 +1660,9 @@ PennController("experiment" ,
 	       ,
 	       newAudio("frogsounds2sec", "frogsounds2sec.mp3")
 		.play(),
-	       
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       newKey(" ")
         .wait()
 	       
@@ -1633,6 +1680,9 @@ PennController("experiment" ,
 	       newAudio("catsounds", "catsounds.mp3")
 		.play()
 		,
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       newKey(" ")
         .wait()
 	       
@@ -1665,6 +1715,9 @@ PennController ("experiment",
         .settings.add( 250 , 0 , getImage("bigapple") )
 	  .settings.add(500, 0 , getImage("smallapple") )
         .print()
+	       ,
+		newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
 	       ,
 	       newKey(" ")
         .wait()
@@ -1834,6 +1887,9 @@ PennController("experiment" ,
 	     newImage ("threecats.png")
                .print ()
 	       ,
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       newKey(" ")
         .wait()
 	       
@@ -1851,7 +1907,9 @@ PennController("experiment" ,
 	       ,
 	       newAudio("catsounds", "catsounds.mp3")
 		.play(),
-	       
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       newKey(" ")
         .wait()
 	       
@@ -2098,6 +2156,9 @@ PennController("experiment" ,
 	       newAudio("catsounds", "catsounds.mp3")
 		.play()
 	       ,
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       newKey(" ")
         .wait()
 	       
@@ -2268,6 +2329,9 @@ PennController("experiment" ,
 	       newAudio("catsounds", "catsounds.mp3")
 		.play()
 		,
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       newKey(" ")
         .wait()
 	       
@@ -2286,6 +2350,9 @@ PennController("experiment" ,
 	       newAudio("cowsounds2sec", "cowsounds2sec.mp3")
 		.play()
 		,
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       newKey(" ")
         .wait()
 	       
@@ -2318,6 +2385,9 @@ PennController ("experiment",
         .settings.add( 250 , 0 , getImage("bigapple") )
 	  .settings.add(500, 0 , getImage("smallapple") )
         .print()
+	       ,
+		newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
 	       ,
 	       newKey(" ")
         .wait()
@@ -2488,6 +2558,9 @@ PennController("experiment" ,
 	     newImage ("threecows.png")
                .print ()
 	       ,
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       newKey(" ")
         .wait()
 	       
@@ -2506,7 +2579,9 @@ PennController("experiment" ,
 
 	       newAudio("cowsounds2sec", "cowsounds2sec.mp3")
 		.play(),
-	       
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
+	       ,
 	       newKey(" ")
         .wait()
 	       
@@ -2752,6 +2827,9 @@ PennController("experiment" ,
 	       ,
 	       newAudio("cowsounds2sec", "cowsounds2sec.mp3")
 		.play()
+	       ,
+	       newText ("<p> To move to the next page, use the space bar. </p>")
+	       .print()
 	       ,
 	       newKey(" ")
         .wait()
